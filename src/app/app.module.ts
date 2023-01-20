@@ -17,6 +17,8 @@ import { NavbarComponent } from './ui/navbar/navbar.component';
     ReactiveFormsModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [
+    AppComponent
+  ]
 })
 export class AppModule { }
