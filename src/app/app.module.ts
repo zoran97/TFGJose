@@ -18,7 +18,6 @@ import { NavbarComponent } from './ui/navbar/navbar.component';
   ],
   providers: [],
   bootstrap: [
-    AppComponent
-  ]
+    AppComponent]
 })
 export class AppModule { }
