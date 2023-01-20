@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "atracciones-4351d": {
+      "hosting": {
+        "Atracciones": [
+          "atracciones-4351d"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "atracciones-4351d"
+  }
+}
