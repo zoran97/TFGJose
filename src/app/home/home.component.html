@@ -1,2 +1,38 @@
-<h1>Welcome</h1>
-<h2>Bienvenidos a mi proyecto</h2>
+
+<style>
+   #titulo {text-align: center;
+            margin-top: 20px;}
+
+    #texto {text-align: center;
+            margin-top: 20px;
+            color: black;
+            }  
+    #boton {display: inline; 
+            text-align: center; 
+    
+            }  
+    
+    #btnregistro {margin-right: 125px;
+                 margin-top: 200PX; }
+
+    #btniniciar {margin-top: 200PX;}
+
+</style>
+
+
+<div id="titulo">
+    <h1 >TITULO</h1>
+</div>
+<div id="texto">
+    <p>TEXTO BIENVENIDA</p>
+</div>
+<form id="boton">
+<div class="form-group">
+<button type="submit" class="btn btn-primary btn-lg
+btn-block" id="btnregistro"><a [routerLink]="['/register']">Registrar</a></button>
+<button type="submit" class="btn btn-primary btn-lg
+ btn-block" id="btniniciar"><a [routerLink]="['/login']">Iniciar sesión</a></button>
+    </div>
+</form>
+
+
