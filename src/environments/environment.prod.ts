@@ -1,11 +1,12 @@
 export const environment = {
   firebase: {
-    projectId: 'atracciones-4351d',
-    appId: '1:900555045531:web:15f8d3017038d0fd70643e',
-    storageBucket: 'atracciones-4351d.appspot.com',
-    apiKey: 'AIzaSyBR3ckBICvZfbBTwQYMe_pPMTr3Qy7gWB0',
-    authDomain: 'atracciones-4351d.firebaseapp.com',
-    messagingSenderId: '900555045531',
+    projectId: 'rollercounter-cfbff',
+    appId: '1:209800622204:web:d024b1e4b0bfd0550d19f9',
+    storageBucket: 'rollercounter-cfbff.appspot.com',
+    apiKey: 'AIzaSyDwwVkEXN8SBJ1UDh7x4ROHab6Rr6urRfg',
+    authDomain: 'rollercounter-cfbff.firebaseapp.com',
+    messagingSenderId: '209800622204',
+    measurementId: 'G-1FK5XBGCPD',
   },
   production: true
 };

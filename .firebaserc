@@ -1,14 +1,14 @@
 {
   "targets": {
-    "atracciones-4351d": {
+    "rollercounter-cfbff": {
       "hosting": {
         "Atracciones": [
-          "atracciones-4351d"
+          "rollercounter-cfbff"
         ]
       }
     }
   },
   "projects": {
-    "default": "atracciones-4351d"
+    "default": "rollercounter-cfbff"
   }
 }
