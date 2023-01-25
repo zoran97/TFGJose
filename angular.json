@@ -118,8 +118,8 @@
             "prerender": false,
             "ssr": false,
             "browserTarget": "Atracciones:build:production",
-            "firebaseProject": "atracciones-4351d",
-            "firebaseHostingSite": "atracciones-4351d"
+            "firebaseProject": "rollercounter-cfbff",
+            "firebaseHostingSite": "rollercounter-cfbff"
           }
         }
       }

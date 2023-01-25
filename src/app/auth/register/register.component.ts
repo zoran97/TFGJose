@@ -10,7 +10,10 @@ export class RegisterComponent implements OnInit {
 
   registerForm = new FormGroup({
     email: new FormControl(''),
-    password: new FormControl('')
+    password: new FormControl(''),
+    name: new FormControl(''),
+    lastname: new FormControl('')
+    
   })
 
   constructor() { }

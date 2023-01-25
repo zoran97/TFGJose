@@ -1,38 +1,13 @@
 
-<style>
-   #titulo {text-align: center;
-            margin-top: 20px;}
-
-    #texto {text-align: center;
-            margin-top: 20px;
-            color: black;
-            }  
-    #boton {display: inline; 
-            text-align: center; 
-    
-            }  
-    
-    #btnregistro {margin-right: 125px;
-                 margin-top: 200PX; }
-
-    #btniniciar {margin-top: 200PX;}
-
-</style>
-
-
-<div id="titulo">
-    <h1 >TITULO</h1>
+<div style="text-align: center; margin-top: 20px;">
+    <h1>ROLLERCOUNTER</h1>
 </div>
-<div id="texto">
+<div style="text-align: center; margin-top: 20px; color: black;">
     <p>TEXTO BIENVENIDA</p>
 </div>
-<form id="boton">
 <div class="form-group">
-<button type="submit" class="btn btn-primary btn-lg
-btn-block" id="btnregistro"><a [routerLink]="['/register']">Registrar</a></button>
-<button type="submit" class="btn btn-primary btn-lg
- btn-block" id="btniniciar"><a [routerLink]="['/login']">Iniciar sesión</a></button>
-    </div>
-</form>
-
-
+    <button type="submit" class="btn btn-primary btn-lg
+btn-block "  (click)="btnRegistre()" style="margin-top: 196px; margin-left: 132px;">Registrar</button>
+    <button type="submit" class="btn btn-primary btn-lg
+ btn-block" (click)="btnLogin()" style="margin-top: 196px; margin-left: 515px;">Iniciar sesión</button>
+</div>
