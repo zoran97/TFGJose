@@ -18,7 +18,25 @@ const routes: Routes = [
   },
   { path: 'register',
     loadChildren: () => import('./auth/register/register.module').then(m => m.RegisterModule)
-  }
+  },
+  { path: 'themepark',
+    loadChildren: () => import('./pages/themepark/themepark.module').then(m => m.ThemeparkModule)
+  },
+  { path: 'rollercoasters',
+    loadChildren: () => import('./pages/rollercoasters/rollercoasters.module').then(m => m.RollercoastersModule)
+  },
+  { path: 'rollercoastersDetails',
+    loadChildren: () => import('./pagesDetails/rollercoasters-details/rollercoasters-details.module').then(m => m.RollercoastersDetailsModule)
+  },
+  { path: 'themeparkDetails',
+    loadChildren: () => import('./pagesDetails/themepark-details/themepark-details.module').then(m => m.ThemeparkDetailsModule)
+  },
+  { path: 'profile',
+    loadChildren: () => import('./profile/profile/profile.module').then(m => m.ProfileModule)
+  },
+  { path: 'admin',
+    loadChildren: () => import('./admin/admin/admin.module').then(m => m.AdminModule)
+}
 ];
 @NgModule({
   imports: [RouterModule.forRoot(routes)],

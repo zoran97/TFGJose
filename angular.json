@@ -111,16 +111,6 @@
             ],
             "scripts": []
           }
-        },
-        "deploy": {
-          "builder": "@angular/fire:deploy",
-          "options": {
-            "prerender": false,
-            "ssr": false,
-            "browserTarget": "Atracciones:build:production",
-            "firebaseProject": "rollercounter-cfbff",
-            "firebaseHostingSite": "rollercounter-cfbff"
-          }
         }
       }
     }
