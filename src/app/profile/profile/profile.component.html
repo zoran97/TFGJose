@@ -1,1 +1,31 @@
-<p>profile works!</p>
+
+<div class="slider" style="text-align: center;">
+  <ul>
+    <li>
+<img src="https://pbs.twimg.com/media/FyJn23wXsAMvwrG?format=jpg&name=large" alt="">
+</li>
+    <li>
+<img src="https://pbs.twimg.com/media/FyJn23zXoAQp5xu?format=jpg&name=large" alt="">
+</li>
+    <li>
+<img src="https://media.hswstatic.com/eyJidWNrZXQiOiJjb250ZW50Lmhzd3N0YXRpYy5jb20iLCJrZXkiOiJnaWZcL3JvbGxlci1jb2FzdGVyLXVwZGF0ZTcuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo4Mjh9LCJ0b0Zvcm1hdCI6ImF2aWYifX0=" alt="">
+</li>
+    <li>
+<img src="https://pbs.twimg.com/media/FyJn23yWYAAJ5Dy?format=jpg&name=large" alt="">
+</li>
+  </ul>
+</div>
+
+
+
+<div class="card" *ngFor="let profile of ProfileList " >
+    <div class="card-body" style="text-align: center;">
+      <h1 class="card-title">{{profile.Name}}</h1>
+      <h3 class="card-subtitle mb-2 text-muted">Usuario de RollerCounter</h3>
+      <p class="card-text">Credits: {{profile.Credits}}</p>
+      <p class="card-text">Montaña rusa favotrita: {{profile.Coaster}}</p>
+      <p>A través de estos enlaces vuelve a ver los parques y montañas por si se te ha escapado alguno:</p>
+      <a href="/themepark" class="card-link">Parques temático</a>
+      <a href="/rollercoasters" class="card-link">Montañas rusas</a>
+    </div>
+  </div>

@@ -1,1 +1,35 @@
-<p>rollercoasters works!</p>
+
+<div class="card mb-3" *ngFor="let rollercoasters of RollerCoasterList " style="padding-bottom: 0;">
+  <h3 class="card-header">{{rollercoasters.Name}}</h3>
+  <div class="card-body">
+    <h5 class="card-title">{{rollercoasters.Name}}</h5>
+    <h6 class0="card-title">{{rollercoasters.Park}}</h6>
+  </div>
+  <div class="card-body" style="padding-top: 0;">
+    <p class="card-text">Fabricante: {{rollercoasters.Maker}}</p>
+    <p class="card-text">Altura: {{rollercoasters.Height}}, longitud: {{rollercoasters.Lenght}}, velocidad: {{rollercoasters.Speed}}</p>
+    <p class="card-text">Inagurada en: {{rollercoasters.Year}}</p>
+  </div>
+  <div style="text-align: center; ">
+    <img  [src] = 'rollercoasters.Photo' width="1000" height="500"/>
+  </div>
+  <br>
+  <div style="text-align: center;">
+    <a href={{rollercoasters.Video}} class="card-link">Monta en la montaña rusa</a> 
+  </div>
+  <br>
+  <div class="card-body">
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+      <label class="form-check-label" for="flexCheckDefault">
+      He montado!
+      </label>
+      <br>
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+      <label class="form-check-label" for="flexCheckDefault">
+       Mi favorita
+      </label>
+    </div>
+  </div>
+  </div>
