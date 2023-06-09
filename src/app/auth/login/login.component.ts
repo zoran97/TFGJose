@@ -14,13 +14,19 @@ export class LoginComponent implements OnInit {
     password: new FormControl('')
   })
 
+  inputInvalid = false;
+
   constructor(private router: Router) { }
 
   ngOnInit(): void {
   }
 
-  onLogin(){
-    console.log('Form---', this.loginForm.value);
-    this.router.navigate(['/themepark'])
+  onLogin(){ 
+    if (this.loginForm.value.email === 'josel.simancas94@gmail.com' && this.loginForm.value.password === '1234'){ 
+      console.log('Form---', this.loginForm.value);
+      this.router.navigate(['/themepark'])
+    } else {
+      this.inputInvalid = true;
+    }
   }
 }

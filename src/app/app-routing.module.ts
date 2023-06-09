@@ -25,12 +25,6 @@ const routes: Routes = [
   { path: 'rollercoasters',
     loadChildren: () => import('./pages/rollercoasters/rollercoasters.module').then(m => m.RollercoastersModule)
   },
-  { path: 'rollercoastersDetails',
-    loadChildren: () => import('./pagesDetails/rollercoasters-details/rollercoasters-details.module').then(m => m.RollercoastersDetailsModule)
-  },
-  { path: 'themeparkDetails',
-    loadChildren: () => import('./pagesDetails/themepark-details/themepark-details.module').then(m => m.ThemeparkDetailsModule)
-  },
   { path: 'profile',
     loadChildren: () => import('./profile/profile/profile.module').then(m => m.ProfileModule)
   },
